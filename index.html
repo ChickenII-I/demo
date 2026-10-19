@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lập trình Web Nhóm 4</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- HEADER & NAVIGATION BANNER -->
+    <header>
+        <div class="header-container">
+            <!-- Khối Logo + Tên nhóm -->
+            <div class="brand-box">
+                <img src="image/logo.jpeg" alt="Logo Nhóm 4">
+              <div>
+                <h1>Lập Trình Web - Nhóm 4</h1>
+                </div>
+            </div>
+
+            <!-- Thanh điều hướng Navi (Nằm trên 1 hàng) -->
+            <nav>
+                <ul>
+                    <li><a href="#" class="nav-link active" data-tab="trang-chu">Trang chủ</a>                    </li>
+                  <li><a href="#" class="nav-link" data-tab="gioi-thieu">Giới thiệu nhóm</a></li>
+                  <li><a href="#" class="nav-link" data-tab="thanh-vien">Danh sách thành viên</a></li>
+                  <li><a href="#" class="nav-link" data-tab="lien-he">Liên hệ / Góp ý</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- KHU VỰC HIỂN THỊ NỘI DUNG -->
+<main class="main-content">
+
+        <!-- 1. TRANG CHỦ -->
+        <section id="trang-chu" class="tab-content active">
+          <div class="hero-section">
+                <h2 align="center">Hành Trình Chinh Phục Công Nghệ Web 🚀</h2>
+                <p align="center">Chào mừng bạn đến với trang web chính thức của Nhóm 4</p>
+            </div>
+            <div class="card-grid">
+              <div class="card">
+                <h3>💻 Lập Trình Front-End</h3>
+                  <p>Xây dựng cấu trúc chuẩn HTML5 và tối ưu hóa giao diện trực quan bằng CSS3 & JavaScript.</p>
+                    <p><img src="image/web-ui-design.jpg" width="624" height="311" alt=""/></p>
+                </div>
+              <div class="card">
+                <h3>🎨 Thiết Kế UI/UX</h3>
+                  <p>Lên bố cục, phối màu sắc hiện đại và mang lại trải nghiệm mượt mà trên mọi thiết bị.</p>
+                    <p><img src="image/coder-html-css.jpg" width="624" height="311" alt=""/></p>
+              </div>
+            </div>
+        </section>
+
+        <!-- 2. GIỚI THIỆU NHÓM -->
+        <section id="gioi-thieu" class="tab-content">
+            <div class="about-section">
+                <h3>Về Nhóm Chúng Mình</h3>
+                <div class="about-card">
+                    <p class="intro-heading">🔥 Tinh thần: <em>"Đột phá ý tưởng – Chắp cánh công nghệ"</em></p>
+                    <p><strong>Phong cách & Tinh thần:</strong> Nhóm 4 tập hợp những thành viên trẻ trung, năng động và giàu nhiệt huyết với dòng code. Chúng mình hoạt động theo phong cách cởi mở, sáng tạo, không ngại thử thách và luôn sẵn sàng hỗ trợ lẫn nhau trong học tập.</p>
+                    <p><strong>Mục tiêu phát triển:</strong> Cùng nhau nâng cao kỹ năng lập trình web, xây dựng các sản phẩm chỉnh chu, đồng thời phát triển tinh thần làm việc nhóm hiệu quả và phấn đấu đạt kết quả xuất sắc trong môn học!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. DANH SÁCH THÀNH VIÊN -->
+        <section id="thanh-vien" class="tab-content">
+            <div class="members-section">
+                <h3>Thành Viên Nhóm 4 (4 Coder)</h3>
+                <p class="guide-text">💡 Rê chuột (hover) vào từng Avatar để xem thông tin chi tiết!</p>
+
+                <div class="avatar-grid">
+                    <!-- Thành viên 1 -->
+                    <div class="member-card">
+                        <div class="avatar-wrapper">
+                            <img src="image/truongthien.jpg" alt="Nguyễn Trường Thiện" class="avatar-img">
+                            <div class="member-detail-overlay">
+                                <h4>Nguyễn Trường Thiện</h4>
+                                <p><strong>MSSV:</strong> TUE26C7TC003</p>
+                                <p><strong>SĐT:</strong> 0933815495</p>
+                                <p><strong>Email:</strong> thewildhorse90@gmail.com</p>
+                                <p><strong>Đơn vị:</strong> Trường Tiểu Học Hiệp Tân</p>
+                                <p class="role"><strong>Nhiệm vụ:</strong> Kiểm thử giao diện & tổng hợp báo cáo nhóm.</p>
+                            </div>
+                        </div>
+                        <span class="member-name">Nguyễn Trường Thiện</span>
+                    </div>
+
+                    <!-- Thành viên 2 -->
+                    <div class="member-card">
+                        <div class="avatar-wrapper">
+                            <img src="image/dacthuan.jpg" alt="Trịnh Đắc Thuần" class="avatar-img">
+                            <div class="member-detail-overlay">
+                                <h4>Trịnh Đắc Thuần</h4>
+                                <p><strong>MSSV:</strong> TUE25C5TC192</p>
+                                <p><strong>SĐT:</strong> 0349200001</p>
+                                <p><strong>Email:</strong> thuanga98@gmail.com</p>
+                                <p><strong>Đơn vị:</strong> Bắc Ninh</p>
+                                <p class="role"><strong>Nhiệm vụ:</strong> Lập trình JavaScript & xử lý tương tác giao diện.</p>
+                            </div>
+                        </div>
+                        <span class="member-name">Trịnh Đắc Thuần</span>
+                    </div>
+
+                    <!-- Thành viên 3 -->
+                    <div class="member-card">
+                        <div class="avatar-wrapper">
+                            <img src="image/thanhtuan.jpg" alt="Phạm Thanh Tuấn " class="avatar-img">
+                            <div class="member-detail-overlay">
+                                <h4>Phạm Thanh Tuấn </h4>
+                                <p><strong>MSSV:</strong> TUE26C4TC004</p>
+                                <p><strong>SĐT:</strong> 0843 578 578</p>
+                                <p><strong>Email:</strong> tuanpt.bkn@gmail.com</p>
+                                <p><strong>Đơn vị:</strong> Viễn Thông Thái Nguyên</p>
+                                <p class="role"><strong>Nhiệm vụ:</strong> Thiết kế UI/UX, phối màu & biên tập nội dung.</p>
+                            </div>
+                        </div>
+                        <span class="member-name">Phạm Thanh Tuấn </span>
+                    </div>
+
+                    <!-- Thành viên 4 -->
+                    <div class="member-card">
+                        <div class="avatar-wrapper">
+                            <img src="image/truongpham.jpg" alt="Phạm Chí Trường" class="avatar-img">
+                            <div class="member-detail-overlay">
+                                <h4>Phạm Chí Trường</h4>
+                                <p><strong>MSSV:</strong> TUE25C4TC193</p>
+                                <p><strong>SĐT:</strong> 0988 100 388</p>
+                                <p><strong>Email:</strong> truongpham.hni@gmail.com</p>
+                                <p><strong>Đơn vị:</strong> Công ty CP Đầu tư và Phát triển Ngôi Sao</p>
+                                <p class="role"><strong>Nhiệm vụ:</strong> Nhóm trưởng, thiết kế cấu trúc web & lập trình HTML/CSS.</p>
+                            </div>
+                        </div>
+                        <span class="member-name">Phạm Chí Trường</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. FORM LIÊN HỆ / GÓP Ý (ĐÃ THÊM NÚT XÓA Ý KIẾN) -->
+  <section id="lien-he" class="tab-content">
+            <div class="contact-section">
+                <h3>Gửi Góp Ý Cho Nhóm 4 📬</h3>
+                <form class="contact-form" id="feedbackForm">
+                    <div class="form-group">
+                        <label for="fullname">Họ và tên:</label>
+                        <input type="text" id="fullname" placeholder="Nhập họ tên của bạn..." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email liên hệ:</label>
+                        <input type="email" id="email" placeholder="Nhập email..." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Nội dung góp ý:</label>
+                        <textarea id="message" rows="5" placeholder="Nhập nội dung góp ý..." required></textarea>
+                    </div>
+                    
+                    <!-- Khối chứa 2 nút gửi & xóa ý kiến nằm cạnh nhau -->
+                    <div class="button-group">
+                        <button type="submit" class="btn-submit">Gửi Ý Kiến</button>
+                        <button type="reset" class="btn-reset">Xóa Ý Kiến</button>
+                    </div>
+                </form>
+            </div>
+    </section>
+</main>
+
+    <!-- FOOTER WEBSITE -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-info">
+                <p><strong>Bài tập thực hành môn Lập trình và thiết kế web Nhóm 4</strong></p>
+                <p>© 2026 Bản quyền thuộc về Nhóm 4 - ĐH Công Nghệ Thái Nguyên</p>
+            </div>
+            <div class="footer-socials">
+                <span>Kết nối với chúng mình:</span>
+                <a href="https://facebook.com" target="_blank" class="social-link facebook">Facebook</a>
+                <a href="https://zalo.me" target="_blank" class="social-link zalo">Zalo</a>
+            </div>
+        </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
